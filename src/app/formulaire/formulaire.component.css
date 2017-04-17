@@ -1,0 +1,11 @@
+.ng-valid:not(form) {
+    border: 3px solid green;
+}
+
+.ng-invalid.ng-dirty:not(form) {
+    border: 3px solid red;
+}
+
+input:focus {
+    outline: none;
+}

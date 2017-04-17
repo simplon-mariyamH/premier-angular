@@ -1,0 +1,11 @@
+<h1>hourra</h1>
+<input type="text" [(ngModel)]="premiereVariable"> 
+<button (click)="methodeClick()">Click</button>
+
+{{premiereVariable}} 
+{{premierObjet.attribut1}} {{premierObjet.attribut2}}
+
+<p *ngFor="let item of tableau; let ind = index; let pair = even">
+    <!--<span *ngIf="pair">--> {{ind}} {{item}} <!--</span>-->
+    <button (click)="deleteClick(ind)">Click Delete</button>
+</p>
